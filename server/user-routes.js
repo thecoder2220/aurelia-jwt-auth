@@ -39,7 +39,7 @@ function getUserScheme(req) {
     username: username,
     type: type,
     userSearch: userSearch
-  }
+  };
 }
 
 app.post('/users', function(req, res) {
